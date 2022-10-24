@@ -1,0 +1,147 @@
+/**************************************************************TopWidget start*/
+/*去除焦点虚线*/
+*
+{
+	outline:0px;
+}
+
+
+/*TopWidget*/
+QWidget#TopWidget
+{
+    background-color:rgb(34, 34, 37);
+	border-bottom: 1px solid rgb(69, 69, 69);
+}
+/*LogoBtn*/
+QPushButton#LogoBtn
+{
+	background-color: transparent;
+    background-image: url(./resource/image/logotools25.png); 
+    background-origin: content;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+/*ProductNameLab*/
+QLabel#ProductNameLab
+{
+	font-size: 20px;
+    color: white;	
+}
+/*AccountBtn*/
+QPushButton#AccountBtn
+{
+	border-image:url(./resource/image/account.png);
+}
+QPushButton::hover#AccountBtn
+{
+	border-image:url(./resource/image/account.png);
+}
+QPushButton::pressed#AccountBtn
+{
+	border-image:url(./resource/image/account.png);
+}
+/*MenuBtn*/
+QPushButton#MenuBtn
+{
+	border-image:url(./resource/image/menu.png);
+}
+QPushButton::hover#MenuBtn
+{
+	border-image:url(./resource/image/menu.png);
+}
+QPushButton::pressed#MenuBtn
+{
+	border-image:url(./resource/image/menu.png);
+}
+/*CloseBtn*/
+QPushButton#CloseBtn
+{
+	border-image:url(./resource/image/close.png);
+}
+QPushButton::hover#CloseBtn
+{
+	border-image:url(./resource/image/close.png);
+}
+QPushButton::pressed#CloseBtn
+{
+	border-image:url(./resource/image/close.png);
+}
+/*MinimizeBtn*/
+QPushButton#MinimizeBtn
+{
+	border-image:url(./resource/image/minimize.png);
+}
+QPushButton::hover#MinimizeBtn
+{
+	border-image:url(./resource/image/minimize.png);
+}
+QPushButton::pressed#MinimizeBtn
+{
+	border-image:url(./resource/image/minimize.png);
+}
+/*MaximizeBtn*/
+QPushButton#MaximizeBtn
+{
+	border-image:url(./resource/image/maximize.png);
+}
+QPushButton::hover#MaximizeBtn
+{
+	border-image:url(./resource/image/maximize.png);
+}
+QPushButton::pressed#MaximizeBtn
+{
+	border-image:url(./resource/image/maximize.png);
+}
+/**************************************************************TopWidget end*/
+
+
+/******************************************************************************************************************************************************************************************/
+
+
+/**************************************************************NavigationScrollArea start*/
+/*NavigationScrollArea*/
+QScrollArea#NavigationScrollArea
+{
+    background-color:rgb(43, 43, 43);
+	border: none;
+}
+QListWidget#NavigationListWidget
+{
+	font-size: 15px;
+	background-color:rgb(43, 43, 43);
+	border:none;
+	color:rgb(255,255,255);
+	padding-left:15px;	
+	padding-top:30px;	
+	padding-right:15px;
+}
+QListWidget::Item#NavigationListWidget
+{
+	padding-left:5px;
+	height:40;
+	border-radius: 5px;
+	font-size: 13.5px;
+}
+QListWidget::Item:hover#NavigationListWidget
+{
+	color:rgb(255,255,255);
+	background:rgb(51, 51, 51);	
+}
+QListWidget::Item:selected#NavigationListWidget
+{
+	color:rgb(255,255,255);
+	background:rgb(51, 51, 51);	
+}
+/**************************************************************NavigationScrollArea end*/
+
+
+/******************************************************************************************************************************************************************************************/
+
+
+/**************************************************************ContentWidget start*/
+QWidget#ContentWidget
+{
+    background-color:rgb(43, 43, 43);
+	border-left: 1px solid rgb(69, 69, 69);
+}
+/**************************************************************ContentWidget end*/
