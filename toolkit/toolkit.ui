@@ -30,7 +30,7 @@
     <number>0</number>
    </property>
    <item>
-    <widget class="QWidget" name="TopWidget" native="true">
+    <widget class="QWidget" name="topWidget" native="true">
      <property name="minimumSize">
       <size>
        <width>0</width>
@@ -48,7 +48,7 @@
        <number>10</number>
       </property>
       <item>
-       <widget class="QWidget" name="widget" native="true">
+       <widget class="QWidget" name="productPanel" native="true">
         <property name="minimumSize">
          <size>
           <width>100</width>
@@ -72,7 +72,7 @@
           <number>0</number>
          </property>
          <item>
-          <widget class="QPushButton" name="LogoBtn">
+          <widget class="QPushButton" name="logoBtn">
            <property name="minimumSize">
             <size>
              <width>25</width>
@@ -91,7 +91,7 @@
           </widget>
          </item>
          <item>
-          <widget class="QLabel" name="ProductNameLab">
+          <widget class="QLabel" name="productNameLab">
            <property name="text">
             <string>ToolKit</string>
            </property>
@@ -117,7 +117,7 @@
        </spacer>
       </item>
       <item>
-       <widget class="QPushButton" name="AccountBtn">
+       <widget class="QPushButton" name="accountBtn">
         <property name="minimumSize">
          <size>
           <width>20</width>
@@ -136,7 +136,7 @@
        </widget>
       </item>
       <item>
-       <widget class="QPushButton" name="MenuBtn">
+       <widget class="QPushButton" name="menuBtn">
         <property name="minimumSize">
          <size>
           <width>20</width>
@@ -155,7 +155,7 @@
        </widget>
       </item>
       <item>
-       <widget class="QPushButton" name="MinimizeBtn">
+       <widget class="QPushButton" name="minimizeBtn">
         <property name="minimumSize">
          <size>
           <width>20</width>
@@ -174,7 +174,7 @@
        </widget>
       </item>
       <item>
-       <widget class="QPushButton" name="MaximizeBtn">
+       <widget class="QPushButton" name="maximizeBtn">
         <property name="minimumSize">
          <size>
           <width>20</width>
@@ -193,7 +193,7 @@
        </widget>
       </item>
       <item>
-       <widget class="QPushButton" name="CloseBtn">
+       <widget class="QPushButton" name="closeBtn">
         <property name="minimumSize">
          <size>
           <width>20</width>
@@ -215,7 +215,7 @@
     </widget>
    </item>
    <item>
-    <widget class="QWidget" name="MainWidget" native="true">
+    <widget class="QWidget" name="mainWidget" native="true">
      <layout class="QHBoxLayout" name="horizontalLayout">
       <property name="spacing">
        <number>0</number>
@@ -233,32 +233,32 @@
        <number>0</number>
       </property>
       <item>
-       <widget class="QScrollArea" name="NavigationScrollArea">
+       <widget class="QScrollArea" name="navigationScrollArea">
         <property name="minimumSize">
          <size>
-          <width>200</width>
+          <width>150</width>
           <height>0</height>
          </size>
         </property>
         <property name="maximumSize">
          <size>
-          <width>200</width>
+          <width>150</width>
           <height>16777215</height>
          </size>
         </property>
         <property name="widgetResizable">
          <bool>true</bool>
         </property>
-        <widget class="QWidget" name="NavigationScrollAreaWidgetContents">
+        <widget class="QWidget" name="navigationScrollAreaWidgetContents">
          <property name="geometry">
           <rect>
            <x>0</x>
            <y>0</y>
-           <width>198</width>
+           <width>148</width>
            <height>618</height>
           </rect>
          </property>
-         <layout class="QVBoxLayout" name="verticalLayout_2">
+         <layout class="QHBoxLayout" name="horizontalLayout_4">
           <property name="leftMargin">
            <number>0</number>
           </property>
@@ -272,14 +272,18 @@
            <number>0</number>
           </property>
           <item>
-           <widget class="QListWidget" name="NavigationListWidget"/>
+           <widget class="QListWidget" name="navigationListWidget"/>
           </item>
          </layout>
         </widget>
        </widget>
       </item>
       <item>
-       <widget class="QWidget" name="ContentWidget" native="true"/>
+       <widget class="QTabWidget" name="tabContent">
+        <property name="currentIndex">
+         <number>-1</number>
+        </property>
+       </widget>
       </item>
      </layout>
     </widget>

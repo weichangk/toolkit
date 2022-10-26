@@ -87,6 +87,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="videofuncpanelview.cpp" />
     <QtRcc Include="toolkit.qrc" />
     <QtUic Include="toolkit.ui" />
     <QtMoc Include="toolkit.h" />
@@ -94,12 +95,15 @@
     <ClCompile Include="tkwidget.cpp" />
     <ClCompile Include="toolkit.cpp" />
     <ClCompile Include="main.cpp" />
+    <QtUic Include="videofuncpanelview.ui" />
   </ItemGroup>
   <ItemGroup>
     <QtMoc Include="tkwidget.h" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="loadfileqss.h" />
+    <QtMoc Include="enum.h" />
+    <QtMoc Include="videofuncpanelview.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Condition="Exists('$(QtMsBuild)\qt.targets')">

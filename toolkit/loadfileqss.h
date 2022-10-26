@@ -6,5 +6,5 @@
 class LoadFileQss
 {
 public:
-	static void setStyle(const QString& fileName);
+	static void SetStyle(const QString& fileName);
 };

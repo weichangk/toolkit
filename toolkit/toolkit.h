@@ -3,6 +3,8 @@
 #include <QtWidgets/QWidget>
 #include "ui_Toolkit.h"
 #include "TkWidget.h"
+#include "Enum.h"
+#include <QMetaEnum>
 
 class Toolkit : public TkWidget
 {
@@ -14,8 +16,9 @@ public:
 
 private:
     Ui::ToolkitClass ui;
-    void setNavigationListWidget();
+    void SetNavigationListWidget();
+    void NavigationToView(QListWidgetItem* item);
 
 private slots:
-    void showMaximizedOrNormal();
+    void ShowMaximizedOrNormal();
 };

@@ -1,39 +1,54 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="Form Files">
+    <Filter Include="Forms">
       <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
       <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{4b085e26-7f38-4c2f-ba61-e22007711bea}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
     <QtUic Include="toolkit.ui">
-      <Filter>Form Files</Filter>
+      <Filter>Forms</Filter>
+    </QtUic>
+    <QtUic Include="videofuncpanelview.ui">
+      <Filter>Forms</Filter>
     </QtUic>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="toolkit.cpp">
-      <Filter>Form Files</Filter>
+      <Filter>Forms</Filter>
     </ClCompile>
     <ClCompile Include="tkwidget.cpp">
-      <Filter>Form Files</Filter>
+      <Filter>Forms</Filter>
     </ClCompile>
     <ClCompile Include="loadfileqss.cpp">
-      <Filter>Form Files</Filter>
+      <Filter>Forms</Filter>
     </ClCompile>
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="videofuncpanelview.cpp">
+      <Filter>Forms</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="loadfileqss.h">
-      <Filter>Form Files</Filter>
+      <Filter>Forms</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <QtMoc Include="tkwidget.h">
-      <Filter>Form Files</Filter>
+      <Filter>Forms</Filter>
     </QtMoc>
     <QtMoc Include="toolkit.h">
-      <Filter>Form Files</Filter>
+      <Filter>Forms</Filter>
+    </QtMoc>
+    <QtMoc Include="videofuncpanelview.h">
+      <Filter>Forms</Filter>
+    </QtMoc>
+    <QtMoc Include="enum.h">
+      <Filter>Common</Filter>
     </QtMoc>
   </ItemGroup>
   <ItemGroup>

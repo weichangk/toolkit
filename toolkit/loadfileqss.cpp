@@ -1,6 +1,6 @@
 #include "LoadFileQss.h"
 
-void LoadFileQss::setStyle(const QString& fileName)
+void LoadFileQss::SetStyle(const QString& fileName)
 {
     QFile fileQss(fileName);
     fileQss.open(QFile::ReadOnly);
